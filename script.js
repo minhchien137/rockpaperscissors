@@ -81,4 +81,19 @@ function getComputerChoice(){
 
 console.log(getComputerChoice());
 
+function getHumanChoice(){
+    let sign = prompt(`Make your choice! Enter the number that match your choice.
+        1. Rock
+        2. Paper
+        3. Scissors`);
+    if(sign == 1){
+        return "rock"
+    }else if(sign == 2){
+        return "paper"
+    }else if(sign == 3){
+        return "scissors"
+    }
+}
+
+console.log(getHumanChoice());
 
