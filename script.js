@@ -56,9 +56,9 @@ console.log(tong2so(2,3));
 
 
 
-const str1 = "Hello";
-const str2 = "World!";
+// const str1 = "Hello";
+// const str2 = "World!";
 
-const message = str1.concat(" "+str2);
-console.log(message);
+// const message = str1.concat(" "+str2);
+// console.log(message);
 
